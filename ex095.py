@@ -38,9 +38,10 @@ while True:
     busca = int(input('Mostrar dados de qual jogador [999 para parar]: '))
     if busca == 999 :
         break
-    if busca > len(dados) :
+    if busca >= len(dados) :
         print(f'Erro! Nao existe jogador {busca}')
     else :
         print(f' => Levantamento do jogador -> {dados[busca]["nome"]} ')
         for indice, gols in enumerate(dados[busca]['gols']) :
             print(f' => No jogo {indice + 1 } fez {gols}.')
+print('FIM DO PROGRAMA!!')
