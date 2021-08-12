@@ -88,4 +88,4 @@ def fatorial(num = 1) :
 
 n = int(input('Digite um número: '))
 r = fatorial(n)
-print(f'O faotiral de {n}! é {r}')
+print(f'O fatorial de {n}! é {r}')
