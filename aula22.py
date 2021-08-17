@@ -1,7 +1,7 @@
-import uteis
+from uteis import numeros
 
 n = int(input('Digite um valor: '))
-f = uteis.fatorial(n)
+f = numeros.fatorial(n)
 print(f'O fatorial de {n}! é {f}')
-print(f'O dobro de {n} é {uteis.dobro(n)}')
-print(f'O triplo de {n} é {uteis.triplo(n)}') 
+print(f'O dobro de {n} é {numeros.dobro(n)}')
+print(f'O triplo de {n} é {numeros.triplo(n)}') 
