@@ -11,7 +11,7 @@ def leiaInt(numero) :
             v = int(n)
             ok = True
         else :
-            print('Erro digite um número inteiro válido') 
+            print('Erro: digite um número inteiro válido') 
         if ok :
             break
     return v
